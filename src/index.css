@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Duolingo style 3D button and card depths */
+.btn-3d-green {
+  background-color: #58cc02;
+  border-bottom: 4px solid #46a302;
+  transition: all 0.08s ease-in-out;
+}
+.btn-3d-green:hover:not(:disabled) {
+  background-color: #5fe002;
+}
+.btn-3d-green:active:not(:disabled) {
+  transform: translateY(3px);
+  border-bottom-width: 1px;
+}
+
+.btn-3d-blue {
+  background-color: #1cb0f6;
+  border-bottom: 4px solid #1899d6;
+  transition: all 0.08s ease-in-out;
+}
+.btn-3d-blue:hover:not(:disabled) {
+  background-color: #24bbfd;
+}
+.btn-3d-blue:active:not(:disabled) {
+  transform: translateY(3px);
+  border-bottom-width: 1px;
+}
+
+.btn-3d-white {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+  border-bottom: 4px solid #d4d4d4;
+  transition: all 0.08s ease-in-out;
+}
+.btn-3d-white:hover:not(:disabled) {
+  background-color: #f7f7f7;
+}
+.btn-3d-white:active:not(:disabled) {
+  transform: translateY(3px);
+  border-bottom-width: 1px;
+}
+
+.btn-3d-orange {
+  background-color: #ff9600;
+  border-bottom: 4px solid #cc7800;
+  transition: all 0.08s ease-in-out;
+}
+.btn-3d-orange:active:not(:disabled) {
+  transform: translateY(3px);
+  border-bottom-width: 1px;
+}
+
+.card-3d {
+  border: 2px solid #e5e5e5;
+  border-bottom: 4px solid #d4d4d4;
+}
+
+.card-3d-orange {
+  background-color: #fd9500;
+  border: 2px solid #ea7e00;
+  border-bottom: 4px solid #c96b00;
+}
+
+.card-3d-cyan {
+  background-color: #4abdff;
+  border: 2px solid #2da6ea;
+  border-bottom: 4px solid #1c88c7;
+}
+
+.card-3d-green {
+  background-color: #1e7e16;
+  border: 2px solid #176611;
+  border-bottom: 4px solid #114e0d;
+}
+
+.card-3d-pink {
+  background-color: #ffdada;
+  border: 2px solid #fca5a5;
+  border-bottom: 4px solid #f87171;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a3a3a3;
+}
+

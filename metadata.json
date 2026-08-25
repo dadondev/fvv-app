@@ -1,0 +1,6 @@
+{
+  "name": "Emergency Hero - Favqulodda Vaziyatlar",
+  "description": "Gamified emergency and disaster preparedness learning platform with interactive safety drills, quake & fire guides, go-bag checklists, and competitive leaderboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
